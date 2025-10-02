@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/website/Style/calculator.css">
+    <script src="/website/javascript/calculator.js"></script>
+</head>
+<body class="gradient-background">
+    <header>
+        <nav>
+            <ul>
+                <li><a target="_blank" rel="noopener noreferrer" href="/website/index.html">Manytruckstogether</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="/website/pages/projects.html">Projects</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="/website/pages/learn.html">Learn about us</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@ManyTrucksTogether">Youtube Channel</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="/website/pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h1>The Calculator</h1>
+        <h1>(10/2/2025)</h1>
+    </div>
+    <div class="box">
+    <div>
+    <textarea maxlength="28" name="answerGiver" id="answerGiver" rows="8" cols="40"></textarea>
+    </div>
+    <div>
+    <button onclick="addValue('&#40')" class="outside" type="button">&#40</button>
+    <button onclick="addValue('&#41')" class="outside" type="button">&#41</button>
+    <button onclick="addValue('%')" class="outside" type="button">%</button>
+    <button onclick="removeAll()" class="outside" type="button">CE</button>
+    </div>
+    <div>
+    <button onclick="addValue('7')" type="button">7</button>
+    <button onclick="addValue('8')" type="button">8</button>
+    <button onclick="addValue('9')" type="button">9</button>
+    <button onclick="addValue('/')" type="button" class="outside">÷</button>
+    </div>
+    <div>
+    <button onclick="addValue('4')" type="button">4</button>
+    <button onclick="addValue('5')" type="button">5</button>
+    <button onclick="addValue('6')" type="button">6</button>
+    <button onclick="addValue('*')" class="outside" type="button">x</button>
+    </div>
+    <div>
+    <button onclick="addValue('1')" type="button">1</button>
+    <button onclick="addValue('2')" type="button">2</button>
+    <button onclick="addValue('3')" type="button">3</button>
+    <button onclick="addValue('-')" class="outside" type="button">-</button>
+    </div>
+    <div>
+    <button onclick="addValue('0')" type="button">0</button>
+    <button onclick="addValue('.')" type="button">.</button>
+    <button onclick="equal()" type="button">=</button>
+    <button onclick="addValue('+')" class="outside" type="button">+</button>
+    </div>
+    </div>
+</body>
+</html>
